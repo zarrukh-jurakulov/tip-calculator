@@ -1,0 +1,45 @@
+html, body {
+ margin: 0px;
+ padding: 0px;
+}
+#main {
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: darkgray;
+}
+#mainContent {
+ height: 80vh;
+ width: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: lightgrey;
+ flex-direction: column;
+}
+input {
+ padding: 5px 5px;
+ font-size: 20px;
+ outline-style: none;
+}
+select {
+ padding: 20px 20px;
+ font-size: 20px;
+  outline-style: none;
+
+}
+p {
+  text-align: left;
+ font-size: 20px;
+}
+button {
+ padding: 15px 30px;
+ font-size: 20px;
+ margin-top: 10px;
+ cursor: pointer;
+  outline-style: none;
+background-color:rgb(160, 5, 70);
+}
+
